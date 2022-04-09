@@ -2,5 +2,3 @@ Personajes de la serie:
 Mabel
 Dipper
 Wendy
-Stanley
-Robbie
