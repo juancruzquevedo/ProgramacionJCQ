@@ -1,0 +1,35 @@
+.encabezado {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkgray;
+    text-align: center;
+    font-size: 50;
+}
+
+.edad{
+font-weight: bold;
+}
+
+.nacionalidad{
+    font-style: italic
+}
+
+#peliculas {
+    color: cornflowerblue;
+}
+
+ol {
+    color: red;
+}
+
+.strange {
+    color: fuchsia;
+    font-weight: bold;
+}
+
+#formulario{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
