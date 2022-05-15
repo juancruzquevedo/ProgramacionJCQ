@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de color</title>
+    <link rel="stylesheet" href="tarea1.css">
+</head>
+
+<body class="background">
+    <h1>Elije un cuadrado para cambiar de color el fondo</h1>
+    <p>
+    <div>
+        <button class="cuadradoverde" id="verde"></button>
+    </div>
+    <div>
+
+        <button class="cuadradorojo" id="rojo"></button>
+
+    </div>
+    <div>
+
+        <button class="cuadradoazul" id="azul"></button>
+
+    </div>
+    </p>
+<p>
+
+<button class="boton" id="limpiar">VOLVER A EMPEZAR</button>
+
+</p>
+
+    <script>
+
+        var background = document.getElementsByClassName('background')[0];
+        var verde = document.getElementById('verde');
+        var rojo = document.getElementById('rojo');
+        var azul = document.getElementById('azul');
+        var limpiar = document.getElementById('limpiar');
+
+        verde.addEventListener('click', function () {
+            background.classList.add('verde');
+        });
+
+        rojo.addEventListener('click', function () {
+            background.classList.add('rojo');
+        });
+
+        azul.addEventListener('click', function () {
+            background.classList.add('azul');
+        });
+
+        limpiar.addEventListener('click', function () {
+            background.classList.remove('verde', 'rojo', 'azul');
+        });
+    
+
+    </script>
+
+
+</body>
+</html>

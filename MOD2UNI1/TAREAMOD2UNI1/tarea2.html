@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta caracteres</title>
+</head>
+<h1>Escribe tu mensaje teniendo en cuenta el número de caracteres</h1>
+<body>
+    <textarea name="Mensaje" onkeyup="countChars(this);" cols="115" rows="15"></textarea>
+<p id="numerodecaracteres">0 caracteres</p>
+
+<script>
+
+function countChars(obj){
+    document.getElementById("numerodecaracteres").innerHTML = obj.value.length+' caracteres';
+}
+
+</script>
+
+
+
+</body>
+</html>

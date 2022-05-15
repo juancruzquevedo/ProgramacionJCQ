@@ -1,0 +1,37 @@
+.cuadradoverde {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: green;
+}
+
+.cuadradorojo {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+.cuadradoazul {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+.background {
+   background-color: violet;
+}
+
+
+.background.verde {
+    background-color: green;
+}
+
+.background.rojo {
+    background-color: red;
+}
+
+.background.azul {
+    background-color: blue;
+}
